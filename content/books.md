@@ -1,6 +1,7 @@
 +++
-date = "2017-03-11T20:25:40+00:00"
+date = "2017-03-11T20:25:40Z"
 title = "Books"
+type = "page"
 weight = 0
 
 +++
@@ -8,6 +9,6 @@ weight = 0
 
 a great book
 
-## Virtuoso
+## Virtuosos
 
 a better book
