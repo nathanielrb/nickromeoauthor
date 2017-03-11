@@ -13,6 +13,6 @@
   &bull;  <span class="date">{{ .Date.Format "January 1, 2006" }}</span>
   
   {{ if .Content }}
-  <blockquote>{{ .Content }}  {{ if isset .Params "link" }}<a href="{{ index .Params "link"}}">...</a>{{ .Title }}</a>{{ end }}</blockquote>
+  <blockquote>{{ .Content }}  {{ if isset .Params "link" }}<p class="continue-reading"><a href="{{ index .Params "link"}}">...</a></p>{{ end }}</blockquote>
   {{ end }}
 </li>
