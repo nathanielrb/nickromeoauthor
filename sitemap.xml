@@ -3,6 +3,10 @@
 
   
   <url>
+    <loc>http://example.org/#the-streets-of-laredo</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/#about</loc>
   </url>
   
