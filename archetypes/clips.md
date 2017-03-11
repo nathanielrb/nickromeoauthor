@@ -4,7 +4,7 @@ title = "Cormac McCarthy's 'Child of God'"
 weight = 0
 draft = false
 category = "review"
-link = "http://www.nyrb.com/nick"
-publication = "NYRB"
+link = ""
+publication = ""
 +++
 
