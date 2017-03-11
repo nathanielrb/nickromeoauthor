@@ -1,6 +1,6 @@
 <li>
 
-  {{ if isset .Params "link" }}
+  {{ if (isset .Params "link") | and (not (eq .Params.link ""))  }}
   <a href="{{ index .Params "link"}}">{{ .Title }}</a>
   {{ else }}
   {{ .Title }}  
@@ -13,6 +13,12 @@
   &bull;  <span class="date">{{ .Date.Format "January 1, 2006" }}</span>
   
   {{ if .Content }}
-  <blockquote>{{ .Content }}  {{ if isset .Params "link" }}<p class="continue-reading"><a href="{{ index .Params "link"}}">...</a></p>{{ end }}</blockquote>
+  <div class="blockquote">
+    {{ .Content }}
+
+    {{ if (isset .Params "link") | and (not (eq .Params.link "")) }}
+    <p class="continue-reading"><a href="{{ index .Params "link"}}">...</a></p>
+    {{ end }}
+  </div>
   {{ end }}
 </li>

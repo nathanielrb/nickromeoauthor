@@ -15,10 +15,12 @@ article ul li {
     padding: 0;
 }
 
-article blockquote {
+article .blockquote {
     border-left: none;
     margin-bottom: 0.5rem;
+    padding-left: 2em;
+    font-style: italic;
 }
-article blockquote p {
+article .blockquote p {
     margin: 0;
 }
