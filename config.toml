@@ -8,8 +8,8 @@ disableRSS = true
 
 [params]
   title = "Nick Romeo"
-  description = '<!--[-->Author, journalist and cultural critic<!--]--><br />
-                <!--[-->Based in Palo Alto, California<!--]-->'
+  description = "Author, journalist and cultural critic<!--]--><br />
+                Based in Palo Alto, California"
   logo = "fa-diamond"
   copyright = "Nick Romeo"
 
