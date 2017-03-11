@@ -39,7 +39,7 @@
 	      <h1>Journalism</h1>
 
 	      <ul>
-		{{ range where .Data.Pages.ByDate.Reverse "Params.cliptype" "journalism" }}
+		{{ range where .Data.Pages.ByDate.Reverse "Params.category" "journalism" }}
 		{{ index .Params "type" }}
 		{{ .Render "clip" }}
 		{{ end }}
@@ -50,7 +50,7 @@
 	      <h1>Reviews</h1>
 
 	      <ul>
-		{{ range where .Data.Pages.ByDate.Reverse "Params.cliptype" "review" }}
+		{{ range where .Data.Pages.ByDate.Reverse "Params.category" "review" }}
 		{{ index .Params "type" }}
 		{{ .Render "clip" }}
 		{{ end }}
@@ -61,7 +61,7 @@
 		      <h1>Essays</h1>
 
 	      <ul>
-		{{ range where .Data.Pages.ByDate.Reverse "Params.cliptype" "essay" }}
+		{{ range where .Data.Pages.ByDate.Reverse "Params.category" "essay" }}
 		{{ index .Params "type" }}
 		{{ .Render "clip" }}
 		{{ end }}

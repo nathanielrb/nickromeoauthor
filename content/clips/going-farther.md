@@ -5,5 +5,4 @@ link = "http://www.nyrb.com/nick"
 publication = "NYRB"
 title = "Going Farther"
 weight = 0
-cliptype = "journalism"
 +++

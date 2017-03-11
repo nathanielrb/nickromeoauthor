@@ -1,6 +1,5 @@
 +++
 category = "journalism"
-cliptype = "journalism"
 date = "2017-03-01T19:03:00+01:00"
 link = ""
 publication = "New York Times Magazine"
