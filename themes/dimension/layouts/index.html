@@ -18,9 +18,9 @@
 		<li><a href="#reviews">Reviews</a></li>
 						    <li><a href="#journalism">Journalism</a></li>
 			
-						                    {{ range .Data.Pages.ByWeight }}
-		{{  if not .Section }}
-                <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
+						    {{ range .Data.Pages.ByWeight }}
+						    {{  if not .Section }}
+						    <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
 						    {{ end }}
 						    {{ end }}
 
@@ -35,6 +35,9 @@
               {{ .Render "onepagestyle" }}
             {{ end }}
 
+	      {{ range .Data.Pages.ByDate.Reverse }}
+	    <p>	    {{ .Title }}  {{ .Data.Singular }} </p>
+	      {{ end }}
 
 	    <article id="journalism">
 	      <h1>Journalism</h1>
