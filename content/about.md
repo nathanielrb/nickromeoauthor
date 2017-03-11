@@ -5,3 +5,5 @@ type = "page"
 
 +++
 Nick Romeo is a Journalist.
+
+We love him.
