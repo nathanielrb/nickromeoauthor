@@ -1,6 +1,6 @@
 +++
 date = "2017-03-11T17:22:18+01:00"
-title = "about"
+title = "About Nick"
 type = "page"
 
 +++
