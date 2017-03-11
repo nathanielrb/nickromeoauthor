@@ -1,0 +1,21 @@
+article ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+article ul li {
+    list-style: none;
+        padding-left: 0;
+    margin-left: 0;
+}
+
+
+#header nav ul li a {
+    padding: 0;
+}
+
+article blockquote {
+    border-left: none;
+    margin-bottom: 0.5rem;
+}
