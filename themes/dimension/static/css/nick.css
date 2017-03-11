@@ -14,7 +14,9 @@ article ul li {
 #header nav ul li a {
     padding: 0;
 }
-
+article {
+    background: none !important;
+}
 article .blockquote {
     border-left: none;
     margin-bottom: 0.5rem;
