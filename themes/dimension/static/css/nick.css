@@ -19,3 +19,6 @@ article blockquote {
     border-left: none;
     margin-bottom: 0.5rem;
 }
+article blockquote p {
+    margin: 0;
+}
