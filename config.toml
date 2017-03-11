@@ -7,8 +7,10 @@ enableRobotsTXT = true
 disableRSS = true
 
 [taxonomies]
-tag = "tags"
-category = ["journalism" "essay" "review"]
+review = "reviews"
+journalism = "journalism"
+essay = "essays"
+
 
 [params]
   title = "Nick Romeo"
