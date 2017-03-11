@@ -1,0 +1,18 @@
+<li>
+
+  {{ if isset .Params "link" }}
+  <a href="{{ index .Params "link"}}">{{ .Title }}</a>
+  {{ else }}
+  {{ .Title }}  
+  {{ end }}
+
+  {{ if isset .Params "publication" }}
+  &bull; {{ index .Params "publication" }}
+  {{ end }}
+
+  &bull;  <span class="date">{{ .Date.Format "January 1, 2006" }}</span>
+  
+  {{ if .Content }}
+  <blockquote>{{ .Content }}  {{ if isset .Params "link" }}<a href="{{ index .Params "link"}}">...</a>{{ .Title }}</a>{{ end }}</blockquote>
+  {{ end }}
+</li>

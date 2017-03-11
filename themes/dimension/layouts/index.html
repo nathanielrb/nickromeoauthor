@@ -1,0 +1,86 @@
+{{ partial "header.html" . }}
+
+    <!-- Wrapper -->
+      <div id="wrapper">
+
+        <!-- Header -->
+          <header id="header">
+            <div class="content">
+              <div class="inner">
+                <h1>{{ .Site.Params.title | safeHTML }}</h1>
+                <p>{{ .Site.Params.description | safeHTML }}</p>
+              </div>
+            </div>
+            <nav>
+              <ul>
+                {{ range .Data.Pages.ByWeight }}
+		{{  if not .Section }}
+                <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
+						    {{ end }}
+						    {{ end }}
+
+						    
+						    <li><a href="#journalism">News</a></li>
+		<li><a href="#reviews">Reviews</a></li>
+		<li><a href="#essays">Essays</a></li>
+
+	      </ul>
+	      
+            </nav>
+          </header>
+
+        <!-- Main -->
+          <div id="main">
+            {{ range .Data.Pages }}
+              {{ .Render "onepagestyle" }}
+            {{ end }}
+
+
+	    <article id="journalism">
+	      <h1>Journalism</h1>
+
+	      <ul>
+		{{ range where .Data.Pages.ByDate.Reverse "Params.category" "journalism" }}
+		{{ index .Params "type" }}
+		{{ .Render "clip" }}
+		{{ end }}
+	      </ul>
+	    </article>
+
+	    	    <article id="reviews">
+	      <h1>Reviews</h1>
+
+	      <ul>
+		{{ range where .Data.Pages.ByDate.Reverse "Params.category" "review" }}
+		{{ index .Params "type" }}
+		{{ .Render "clip" }}
+		{{ end }}
+	      </ul>
+	    </article>
+		    
+		    <article id="essays">
+		      <h1>Essays</h1>
+
+	      <ul>
+		{{ range where .Data.Pages.ByDate.Reverse "Params.category" "essay" }}
+		{{ index .Params "type" }}
+		{{ .Render "clip" }}
+		{{ end }}
+	      </ul>
+	    </article>
+
+	    
+	    </article>
+          </div>
+
+
+
+        <!-- Multilanguage -->
+          <div id="languages">
+            {{ if .IsTranslated }}
+              {{ range $i, $e := .Translations }}
+                {{ if $i }}, {{ end }}<a href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
+              {{ end}}
+            {{ end }}
+          </div>
+{{ partial "footer.html" . }}
