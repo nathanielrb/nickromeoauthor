@@ -6,6 +6,10 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 disableRSS = true
 
+[taxonomies]
+tag = "tags"
+category = ["journalism" "essay" "review"]
+
 [params]
   title = "Nick Romeo"
   description = 'Author, journalist and cultural critic<br/>
