@@ -35,15 +35,11 @@
               {{ .Render "onepagestyle" }}
             {{ end }}
 
-	      {{ range .Data.Pages.ByDate.Reverse }}
-	    <p>	    {{ .Title }}  {{ .Data.Singular }} </p>
-	      {{ end }}
-
 	    <article id="journalism">
 	      <h1>Journalism</h1>
 
 	      <ul>
-		{{ range where .Data.Pages.ByDate.Reverse "Params.category" "journalism" }}
+		{{ range where .Data.Pages.ByDate.Reverse "Params.cliptype" "journalism" }}
 		{{ index .Params "type" }}
 		{{ .Render "clip" }}
 		{{ end }}
@@ -54,7 +50,7 @@
 	      <h1>Reviews</h1>
 
 	      <ul>
-		{{ range where .Data.Pages.ByDate.Reverse "Params.category" "review" }}
+		{{ range where .Data.Pages.ByDate.Reverse "Params.cliptype" "review" }}
 		{{ index .Params "type" }}
 		{{ .Render "clip" }}
 		{{ end }}
@@ -65,7 +61,7 @@
 		      <h1>Essays</h1>
 
 	      <ul>
-		{{ range where .Data.Pages.ByDate.Reverse "Params.category" "essay" }}
+		{{ range where .Data.Pages.ByDate.Reverse "Params.cliptype" "essay" }}
 		{{ index .Params "type" }}
 		{{ .Render "clip" }}
 		{{ end }}
