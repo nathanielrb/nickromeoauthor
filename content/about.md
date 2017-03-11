@@ -7,3 +7,5 @@ type = "page"
 Nick Romeo is a Journalist.
 
 We love him. He's great.
+
+Contact me by email: romeonick@gmail.com
