@@ -6,11 +6,13 @@
   {{ .Title }}  
   {{ end }}
 
+  <!--&bull;  <span class="date">{{ .Date.Format "January 1, 2006" }}</span>-->
+  
   {{ if isset .Params "publication" }}
   &bull; {{ index .Params "publication" }}
   {{ end }}
 
-  &bull;  <span class="date">{{ .Date.Format "January 1, 2006" }}</span>
+
   
   {{ if .Content }}
   <div class="blockquote">
