@@ -3,6 +3,10 @@
 
   
   <url>
+    <loc>http://example.org/#going-farther</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/#books</loc>
   </url>
   
