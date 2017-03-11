@@ -1,5 +1,5 @@
 +++
-category = "news"
+category = "journalism"
 date = "2017-03-11T17:47:49+00:00"
 link = "http://www.nyrb.com/nick"
 publication = "NYRB"
