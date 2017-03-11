@@ -7,10 +7,6 @@
   </url>
   
   <url>
-    <loc>http://example.org/#too-much-traffic</loc>
-  </url>
-  
-  <url>
     <loc>http://example.org/#the-streets-of-laredo</loc>
   </url>
   
@@ -20,6 +16,10 @@
   
   <url>
     <loc>http://example.org/#nyt</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/#too-much-traffic</loc>
   </url>
   
   <url>
