@@ -31,10 +31,6 @@
   </url>
   
   <url>
-    <loc>http://example.org/#too-much-traffic</loc>
-  </url>
-  
-  <url>
     <loc>http://example.org/#</loc>
   </url>
   
