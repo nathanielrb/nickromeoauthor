@@ -1,9 +1,8 @@
 +++
-category = "review"
+category = "essay"
 date = "2017-03-13T06:07:43+00:00"
-draft = true
-link = "http://www.nyrb.com/nick"
-publication = "NYRB"
+link = "http://www.thedailybeast.com/articles/2017/03/04/the-sugar-high-of-political-rhetoric.html"
+publication = "The Daily Beast"
 title = "The sugar high of political rhetoric"
 
 +++
