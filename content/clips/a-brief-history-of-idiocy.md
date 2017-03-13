@@ -1,9 +1,8 @@
 +++
-category = "review"
+category = "essay"
 date = "2017-03-13T06:15:32+00:00"
-draft = true
-link = "http://www.nyrb.com/nick"
-publication = "NYRB"
+link = "https://www.google.com/amp/s/www.washingtonpost.com/amphtml/posteverything/wp/2016/12/20/yes-donald-trumps-america-is-full-of-idiots-but-not-in-the-way-you-think/"
+publication = "Washington Post"
 title = "A brief history of idiocy"
 
 +++
