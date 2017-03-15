@@ -4,7 +4,7 @@ title = "About Nick"
 type = "page"
 
 +++
-Nick Romeo has written features on science, culture, and ideas for a wide range of publications, including the New Yorker, the Washington Post, National Geographic, Slate, Rolling Stone, Newsweek, The Atlantic, New Republic, The Daily Beast, The MIT Technology Review, The Christian Science Monitor, and others..  
+Nick Romeo has written features on science, culture, and ideas for a wide range of publications, including the New Yorker, the Washington Post, National Geographic, Slate, Rolling Stone, Newsweek, The Atlantic, New Republic, The Daily Beast, The MIT Technology Review, The Christian Science Monitor, and others.
 
 He holds a B.A. from Northwestern University and a Master's in classics from the University of Colorado. He's currently based in Palo Alto, California.
 
