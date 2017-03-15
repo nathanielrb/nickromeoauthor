@@ -1,9 +1,8 @@
 +++
-category = "review"
+category = "essay"
 date = "2017-03-15T06:09:04+00:00"
-draft = true
-link = "http://www.nyrb.com/nick"
-publication = "NYRB"
+link = "http://news.nationalgeographic.com/2016/11/greek-ancient-origins-modern-politics/"
+publication = "National Geographic"
 title = "The True Legacy of Ancient Greek Democracy"
 
 +++
