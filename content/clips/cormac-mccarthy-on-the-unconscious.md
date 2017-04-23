@@ -1,10 +1,10 @@
 +++
-category = "review"
+category = "essay"
 date = "2017-04-23T20:54:57+00:00"
-draft = true
-link = "http://www.nyrb.com/nick"
-publication = "NYRB"
+link = "http://www.newyorker.com/books/page-turner/cormac-mccarthy-explains-the-unconscious"
+publication = "The New Yorker "
 title = "Cormac McCarthy on the unconscious "
+weight = ""
 
 +++
 
