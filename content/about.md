@@ -12,6 +12,6 @@ He holds a B.A. from Northwestern University and a Master's in classics from the
 
 He has been a guest speaker or moderator at the CB insights conference, Stanford Medical School, and many other venues.
 
-He's the author of two books, and is a client of the Stuart agency in New York City.
+He is the author of two books, and is a client of the Stuart agency in New York City.
 
 To contact about a story or book for an event: [romeonick@gmail.com](mailto:romeonick@gmail.com)
