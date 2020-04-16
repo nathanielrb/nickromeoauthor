@@ -5,6 +5,7 @@ theme = "dimension"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 disableRSS = true
+publishDirectory = "./docs"
 
 [taxonomies]
 review = "reviews"
