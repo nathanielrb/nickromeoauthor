@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  media_folder: "static"
 collections:
   - name: "clips" # Used in routes, e.g., /admin/collections/blog
     label: "Clip" # Used in the UI
