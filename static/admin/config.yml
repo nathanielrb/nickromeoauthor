@@ -14,4 +14,17 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Publication", name: "publication", widget: "string"}
       - {label: "URL", name: "link", widget: "string"}
-
+  - name: "clips" # Used in routes, e.g., /admin/collections/blog
+    label: "Journalism" # Used in the UI
+    filter:
+      field: category
+      value: journalism
+    folder: "content/clips" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Category", name: "category", widget: "select", options: ["essay","review","journalism"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Publication", name: "publication", widget: "string"}
+      - {label: "URL", name: "link", widget: "string"}
