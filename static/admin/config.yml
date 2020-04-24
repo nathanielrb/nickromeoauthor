@@ -4,7 +4,7 @@ media_folder: "public/img"
 public_folder: "/img"
 collections:
   - name: "clips" # Used in routes, e.g., /admin/collections/blog
-    label: "Clip" # Used in the UI
+    label: "Clips" # Used in the UI
     filter:
       field: category
       value: essay
