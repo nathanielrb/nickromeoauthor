@@ -12,10 +12,6 @@ He holds a B.A. from Northwestern University, an MFA in Fiction, and a Master's 
 
 He has been a guest speaker or moderator at the CB insights conference, Stanford Medical School, and many other venues.
 
-<<<<<<< HEAD
 He is the author of two books, and is a client of the Stuart agency in New York City.
-=======
-He's the author of two books and is a client of the Stuart agency in New York City.
->>>>>>> 52a04ffa00093eaa9a0bde4f906796df7af81f51
 
 To contact about a story or book for an event: [romeonick@gmail.com](mailto:romeonick@gmail.com)
