@@ -26,4 +26,5 @@ collections:
         fields: 
           - {label: "Title", name: "title", widget: "string", default: "About Nick"}
           - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Body", name: "body", widget: "markdown"}
 
