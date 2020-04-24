@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "public/img"
+public_folder: "/img"
 collections:
   - name: "clips" # Used in routes, e.g., /admin/collections/blog
     label: "Clip" # Used in the UI
@@ -26,5 +26,6 @@ collections:
         fields: 
           - {label: "Title", name: "title", widget: "string", default: "About Nick"}
           - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Photo", name: "photo", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
 
