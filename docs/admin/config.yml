@@ -3,8 +3,11 @@ backend:
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 collections:
-  - name: "clips" # Used in routes, e.g., /admin/collections/blog
-    label: "Clip" # Used in the UI
+  - name: "essays" # Used in routes, e.g., /admin/collections/blog
+    label: "Essay" # Used in the UI
+    filter:
+      field: category
+      value: essay
     folder: "content/clips" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
