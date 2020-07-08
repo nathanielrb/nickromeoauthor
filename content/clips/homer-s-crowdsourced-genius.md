@@ -1,8 +1,7 @@
-+++
-category = "review"
-date = "2017-03-13T06:12:57Z"
-link = "http://www.thedailybeast.com/articles/2015/01/11/homer-s-crowdsourced-genius.html"
-publication = "The Daily Beast"
-title = "Homer's Crowdsourced Genius"
-
-+++
+---
+category: review
+title: Homer's Crowdsourced Genius
+date: 2017-03-13T06:12:57Z
+publication: The Daily Beast
+link: https://www.thedailybeast.com/homers-crowdsourced-genius
+---
